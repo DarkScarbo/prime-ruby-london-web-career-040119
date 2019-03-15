@@ -1,12 +1,11 @@
 def prime?(num)
-  i = 2
-  limit = num / i
-    while i < limit
-      if num % i == 0
-        return false
-      end
-    i += 1
-    limit = num / i
-  end
-return true
+ if integer <= 1 
+   return false
+ end
+ for n in 2..(integer - 1)
+   if integer%n == 0
+     return false
+   end
+ end
+ return true
 end
