@@ -2,7 +2,7 @@ def prime?(num)
   i = 2
   limit = num / i
     while i < limit
-      if number % i == 0
+      if num % i == 0
         return false
       end
     i += 1
