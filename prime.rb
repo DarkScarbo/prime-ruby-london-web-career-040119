@@ -2,8 +2,8 @@ def prime?(num)
  if integer <= 1 
    return false
  end
- for n in 2..(integer - 1)
-   if integer%n == 0
+ for n in 2..(num - 1)
+   if num % n == 0
      return false
    end
  end
